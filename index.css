@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: black;
+    
+}
+div{
+    width: 20%;
+    height: 20%;
+    margin-top: 250px;
+}
+p{
+    position: absolute;
+    bottom: 30px;
+    left: 43%;
+    color: white;
+}
+#img2{
+    position: absolute;
+    bottom: 30px;
+    right: 50%;
+    background-color: black;
+}

@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Dosis:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* side bar */
+ aside{
+    width: 15vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: large; 
+    position: fixed;
+}
+li{
+    margin-bottom: 30px;
+    margin-left: 30px;
+    list-style: none;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 1000;
+
+}
+
+.insta{
+    margin-bottom: 50px;
+    font-family: 'Moon Dance', cursive;
+    /* font-size: 20px; */
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    
+}
+#more{
+    margin-top:100px ;
+    margin-left: 60px;
+}
+img{
+    margin-right: 10px ;
+}
+#propic{
+    border-radius: 12px;
+}
+.sidelist:hover{
+    /* margin-left: 40px; */
+
+    background-color: rgba(255, 255, 255, 0.115);
+     box-shadow: 0px 0px 10px 0px  rgba(255, 255, 255, 0.677);
+   
+}
+h1:hover{
+    text-shadow: 0 0 10px white;
+     font-family: 'Dosis', sans-serif;
+font-family: 'Pacifico', cursive;  
+
+
+
+font-size: 28px;
+    
+}
+
+/* side bar ends */
+
+/* main */
+.container{
+    width: 85vw;
+    height: 900vh;
+    margin-left:15vw;
+    background-color: rgba(0, 0, 0, 0.901);
+}
+.storycon{
+    width: 32vw;
+    max-width: 100vw;
+    height: 15vh;
+    background-color: black;
+    position: relative;
+    left: 220px;
+    top: 30px;
+     display: flex;
+    flex-direction: row; 
+    overflow: scroll;
+    overflow-y: hidden;
+    border: 2px solid  rgba(241, 235, 235, 0.261);
+    border-radius: 10px;
+    color: rgba(255, 255, 255, 0.404);
+    
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+#zayn{
+    color: white;
+}
+.story{
+    border-radius: 30px;
+     border-bottom: 3px solid #d35400; 
+    border-top: 3px solid #b71540;
+    border-left:3px solid #d35400;
+    border-right:3px solid #b71540; 
+    position: relative;
+    top: 30px;
+}
+.story:hover{
+    border-bottom: 3px solid #b71540; 
+    border-top: 3px solid #d35400;
+    border-left:3px solid #d35400;
+    border-right:3px solid #b71540;
+
+}
+.stories{
+   display: inline-block;
+   /* float: left; */
+  position: relative;
+  bottom: 35px;
+
+}
+.storyul{
+    color: rgba(255, 255, 255, 0.484);
+
+}
+
+
+/* ----------post section-------- */
+/* post1 */
+.postcon{
+    width: 32vw;
+    height: 110vh;
+    color: white;
+    background-color: black;
+    position: relative;
+    top: 7vh;
+    left: 220px;
+    border: 1px solid  rgba(241, 235, 235, 0.261);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.postnav{
+    width: 32vw;
+    height: 55px;
+    border-radius: 10px 10px 0 0;
+    border-bottom:1px solid rgba(241, 235, 235, 0.261) ;
+    display: inline-block;
+
+}
+
+.postpro1{
+    text-align: center;
+    position: relative;
+    left: 20px;
+    bottom: 10px;
+}
+
+.postpro{
+    position: relative;
+    top: 15px;
+    border-bottom: 3px solid #d35400; 
+    border-top: 3px solid #b71540;
+    border-left:3px solid #d35400;
+    border-right:3px solid #b71540; 
+    border-radius: 25px;
+}
+.buttons{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.save{
+    margin-left:300px ;
+}
+.caption{
+    margin-left:10px ;
+}
+.comment{
+    width: 32vw;
+    height: 50px;
+    border-top: 1px solid rgba(241, 235, 235, 0.261);
+}
+.inputcom{
+    background-color: black;
+    width: 488px;
+    height: 50px;
+    border-radius: 0 0 10px 10px;
+    color: white;
+    
+}
+/* post1 ends */
+
+.sidecon{
+    width: 20vw;
+    height: 100vh;
+    /* background-color: black; */
+    position: absolute;
+    top: 20px;
+    right: 230px;
+    color: white;
+}
+.side1{
+    margin-top: 30px;
+    height: 50px;
+    color: white;
+}
+.side1para{
+    margin-left:75px ;
+}
+.switch{
+    position: relative;
+    left: 130px;
+    bottom: 10px;
+    color: blue;
+    
+}
+.s1{
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+    color: blue;
+}
+.s2{
+    position: relative;
+    left: 125px;
+    bottom: 10px;
+    color: blue;
+}
+.s3{
+    position: relative;
+    left: 157px;
+    bottom: 10px;
+    color: blue;
+}
+.side2{
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 17px;
+    
+}
+.side1:hover{
+    background-color: black;
+}
+.copyright{
+    height: 20px;
+    width: fit-content;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    color: rgba(255, 255, 255, 0.485);
+}
+.sidename{
+    color: rgba(255, 255, 255, 0.355) ;
+}
+.copyright:hover{
+    border-bottom: 1px dotted white;
+    
+}
+@media screen and (max-width:1250px){
+    .sidecon{
+        display: none;
+    }
+    .postcon{
+        width: 30vw;
+    }
+    .storycon{
+        width: 40vw;
+    }
+}
+
+
+@media screen and (min-width:400px) and (max-width:800px){
+    .postcon{
+        width: 75vw;
+        position: relative;
+        left: 25px;
+        top: 210px;
+        margin-bottom: 70px;
+
+    }
+    .storycon{
+        width: 75vw;
+        position: absolute;
+        left: 100px;
+        top: 80px;
+        
+    }
+    .comment{
+        width: 60vw;
+    }
+   .aside{
+    position: static;
+    width: 30vw;
+    
+   }
+   .container{
+    width: 90vw;
+   }
+   .sidelist{
+       margin-left: 10px;
+       font-size: 15px;
+   }
+   .nav{
+    position: relative;
+    bottom: 80px;
+   }
+   .insta{
+    position: relative;
+    left: 180px;
+    top: 70px;
+   }
+}
